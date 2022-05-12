@@ -1,4 +1,4 @@
-execute pathogen#infect()
+" Plugs
 
 call plug#begin()
 Plug 'StanAngeloff/php.vim'
@@ -10,14 +10,16 @@ call plug#end()
 " Assign OS X clipboard
 set clipboard=unnamed
 
-" Ctrl+P for fuzzy find
-nnoremap <C-p> :Files<Cr>
+" Ctrl+o for fzf find
+nnoremap <C-o> :Files<Cr>
 
 " Colours and tabs
 colorscheme NeoSolarized
 set showtabline=2
+set shiftwidth=2
 set number
+set nowrap
 
-" Line bar for instert
+" Line bar for insert
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
