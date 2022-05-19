@@ -15,6 +15,7 @@ nnoremap <C-o> :Files<Cr>
 
 " Colours and tabs
 colorscheme NeoSolarized
+hi Normal guibg=NONE ctermbg=NONE
 set showtabline=2
 set shiftwidth=2
 set number
