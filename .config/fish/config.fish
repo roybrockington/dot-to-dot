@@ -25,3 +25,9 @@ if type -q exa
   alias ll "exa -l -g --icons"
   alias lla "ll -a"
 end
+
+# drupal
+alias drush="vendor/bin/drush"
+
+# networking
+alias dhcp="sudo ipconfig set en0 BOOTP && sudo ipconfig set en0 DHCP"
