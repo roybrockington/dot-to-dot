@@ -5,6 +5,9 @@ Plug 'StanAngeloff/php.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'overcache/NeoSolarized'
+" Drupal specific
+Plug 'nelsyeung/twig.vim'
+Plug 'https://git.drupalcode.org/project/vimrc.git', { 'branch': '8.x-1.x', 'rtp': 'bundle/vim-plugin-for-drupal' }
 call plug#end()
 
 " Assign OS X clipboard
